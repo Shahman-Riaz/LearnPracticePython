@@ -31,5 +31,7 @@
 # print(total)
 
 
-for i in range(100, 50, -10):
-    print('data science', i)
+# for i in range(100, 50, -10):
+#     print('data science', i)
+
+
