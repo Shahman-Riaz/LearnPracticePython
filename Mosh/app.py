@@ -1,13 +1,3 @@
-# matrix = [
-#     [1, 2, 3],
-#     [4, 5, 6],
-#     [7, 8, 9]
-# ]
-# for row in matrix:
-#     for item in row:
-#         print(item)
-
-num = ['Shahman', 'Riaz', 'Bro']
-# num.sort()
-num.reverse()
-print(num)
+import openpyxl as xl
+wb = xl.load_workbook('transactionx.xlsx')
+sheet = wb['Sheet1']
